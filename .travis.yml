@@ -3,7 +3,7 @@ services:
   - docker
 
 before-install:
-  - docker build -t saratkota/React_Docker_AWS -f Dockerfile.dev .
+  - docker build -t saratkota/react_docker_aws -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true saratkota/React_Docker_AWS npm test
+  - docker run -e CI=true saratkota/react_docker_aws npm test
