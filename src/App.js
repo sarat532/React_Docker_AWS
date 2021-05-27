@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          But this is going to be synced.
+          Pora Puski!!.
         </p>
         <a
           className="App-link"
